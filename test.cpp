@@ -7,6 +7,7 @@ int main() {
     bf.set("123abaAAc");
     std::cout << bf.test("123abaAAc") << std::endl;
     std::cout << bf.test("1023abaAAc") << std::endl;
+    std::cout << std::endl;
     
     return 0;
 }
